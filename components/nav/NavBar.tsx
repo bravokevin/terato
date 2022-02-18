@@ -67,7 +67,7 @@ const NavBar = () => {
 
 
               </div>
-              {/* TODO: move to at his own component */}
+              {/* TODO: move to at his own component  make sure*/}
               {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <Menu as="div" className="ml-3 relative">
                   <div>

@@ -47,8 +47,8 @@ const NavBar = () => {
                   />
                 </div>
 {/* Links */}
-                <div className="hidden sm:flex flex-1 w-64 sm:justify-center sm:ml-6">
-                  <div className="flex space-x-[6rem]">
+                <div className="hidden sm:flex flex-1 w-64 sm:justify-end sm:ml-6">
+                  <div className="flex space-x-[3rem] md:space-x-[4.5rem]">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
@@ -67,6 +67,7 @@ const NavBar = () => {
 
 
               </div>
+              {/* TODO: move to at his own component */}
               {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <Menu as="div" className="ml-3 relative">
                   <div>

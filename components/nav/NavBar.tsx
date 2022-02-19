@@ -48,7 +48,7 @@ const NavBar = () => {
                 </div>
 {/* Links */}
                 <div className="hidden sm:flex flex-1 w-64 sm:justify-end sm:ml-6">
-                  <div className="flex space-x-[3rem] md:space-x-[4.5rem]">
+                  <div className="flex space-x-[2.6rem] md:space-x-[4.5rem]">
                     {navigation.map((item) => (
                       <a
                         key={item.name}

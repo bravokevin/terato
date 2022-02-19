@@ -12,7 +12,7 @@ const navigation = [
 
 const Hero  = () => {
   return (
-    <div className="relative h-[800px] bg-gray-900 overflow-hidden">
+    <div className="relative h-[750px] bg-gray-900 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="relative z-10 pb-8 bg-gray-900 text-gray-300 -mt-32 pt-32 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
           {/* <svg
@@ -115,7 +115,7 @@ const Hero  = () => {
                 <span className="block xl:inline">El sitio web para</span>{' '}
                 <span className="block text-indigo-600 xl:inline">Terapeutas Ocupacionales</span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              <p className="mt-3 mb-6 text-base text-gray-500 sm:mt-3 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 El lugar en donde poodras encontrar todo lo necesario para elevar al maximo tu potencial y mejorar como profesional
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">

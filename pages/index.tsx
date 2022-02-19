@@ -13,9 +13,9 @@ export default function Home() {
       </Head>
       <NavBar />
       <Hero/>
-      <div className="container mx-auto px-10 mb-8">
+      {/* <div className="container mx-auto px-10 mb-8">
         <div className='grid grid-cols1 lg:grid-cols12 gap-12'></div>
-      </div>
+      </div> */}
     </>
   )
 }
